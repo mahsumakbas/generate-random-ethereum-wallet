@@ -20,5 +20,5 @@ full_keccak_hash= str(keccak_hash.hexdigest())
 
 wallet_address = full_keccak_hash[24:]
 
-print("Your public wallet address: "+ wallet_address)
+print("Your public wallet address: 0x"+ wallet_address)
 
